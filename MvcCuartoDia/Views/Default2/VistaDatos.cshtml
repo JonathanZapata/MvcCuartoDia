@@ -1,0 +1,23 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>VistaDatos</title>
+</head>
+<body>
+<div>
+    @TempData["VueltaCompleta"]<br/>
+    @ViewData["MyValor"]<br/>
+    @Session["Sesion1"]<br/>
+    @ViewBag.MyValor
+</div>
+<a href="/Default1/Index">Hazme Click</a>
+</body>
+</html>
